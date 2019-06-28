@@ -1,0 +1,433 @@
+/**.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+**/
+body{
+    background-color: whitesmoke;
+}
+.Login-page {
+    paddingBottom: 10;
+    justifyContent: space-around;
+    display: flex;
+    background-color: white;
+    margin: auto;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #efefef;
+    box-shadow: inset 0 0 1em silver, 0 0 1em grey;
+    marginBottom: 10;
+    marginTop: 15;
+    padding: 20px;
+    z-index: -1;
+}
+.logo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    position: inherit;
+    height: 1%;
+    width: 20%;
+    align-items: center;
+    margin : auto;
+    padding: 5px;
+    border: #efefef;
+    line-height: normal;
+    box-shadow: gainsboro;
+    padding-top : 60px;
+}
+
+.signup{
+    margin: auto;
+}
+#logbouton{
+    padding: 5px;
+"border-radius": 10px;
+    margin:5px;
+    color:green;
+    border: solid 1px;
+
+}
+
+.logPage > a:hover{
+    background-color: #dee2e6;
+}
+
+.NavBar{
+    background-color: cadetblue;
+}
+
+html,
+body {
+    margin: 0;
+}
+/**
+sideBar
+**/
+#SideBar {
+    font-family: sans-serif;
+    height: 50vh;
+}
+
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+    z-index: auto;
+    position: relative;
+    height: 50%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    margin-top: 91px;
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    z-index: auto;
+}
+.bm-item-list{
+    height: 100%;
+    margin-top: 85px;
+    overflow: no-display;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    margin-top: -25px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/**
+Fin-side-Bar
+**/
+/*
+NavBar css*
+ */
+
+/*
+Fin NavBarcss*
+ */
+/**
+twisters container
+ */
+.twisters{
+    width: 50%;
+    margin: auto;
+    paddingBottom: 10;
+    justifyContent: space-around;
+    position: relative;
+    height: 50%;
+
+    box-sizing: border-box;
+    display: block;
+}
+
+.animate-Twister {
+    width: 100%;
+    margin-top: 60px;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    border: 1px #efefef dashed;
+    background-color: white;
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+}
+.add-twister-div{
+    position: relative;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(255, 255, 255);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+    border-radius: 2px;
+    height: 68px;
+    width: 100%;
+    margin-top: 130px;
+
+}
+.add-twister-div-profile{
+    position: relative;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(255, 255, 255);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+    border-radius: 2px;
+    height: 68px;
+    width: 100%;
+    margin-top: 70px;
+
+}
+.add-twister-div:hover{
+    background-color: whitesmoke;
+}
+.add-twister-div:focus {outline:0;}
+.add-twister-div:active {
+    outline: none;
+    border: none;
+}
+
+.add-twister-div-span {
+    border: 10px;
+    box-sizing: border-box;
+    display: block;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0px;
+    padding: 7px 0px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 200;
+    position: relative;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 16px;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    background: none;
+
+}
+.add-twister-span-div{
+    margin-left: 0px;
+    padding: 20px 56px 20px 72px;
+    position: relative;
+}
+.add-twist-icon{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 188, 212);
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.add-twist-addPic-icon{
+    display: block;
+    color: cadetblue;
+    fill: rgb(117, 117, 117);
+    height: 24px;
+    width: 24px;
+    user-select: none;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    position: absolute;
+    top: 4px;
+    margin: 12px;
+    right: 4px;
+}
+.Media {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.avatarTwist{
+    padding: 10px;
+}
+
+.DeleteButton{
+    padding-bottom: 10px;
+    margin-left: 92%;
+    margin-bottom: 0px;
+    position: inherit;
+    margin-top: -40px;
+}
+
+.twister-div-media{
+    margin-top: 20px;
+    position: inherit;
+    width: 100%;
+    margin-right: 10px;
+    display: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(255, 255, 255);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    border-radius: 2px;
+    z-index: auto;
+}
+.twister-like{
+    cursor: pointer;
+    position: relative;
+    overflow: visible;
+    display: table;
+    height: auto;
+    width: 100%;
+    transform: translate(6px, 6px);
+    z-index: auto;
+}
+
+.twister-input-like{
+    position: absolute;
+    cursor: inherit;
+    pointer-events: all;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: auto;
+    left: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.add-twist-text-area{
+    height: 48px;
+    width: 100%;
+    resize: none;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: 200;
+    font-stretch: inherit;
+    font-size: 14px;
+    line-height: inherit;
+    font-family: inherit;
+    padding: 0px;
+    cursor: inherit;
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.87);
+    opacity: 1;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin-top: 12px;
+    margin-bottom: -12px;
+    box-sizing: border-box;
+    visibility: inherit;
+}
+.edit-twist-button-toggle{
+    color:cadetblue;
+    height: 100%;
+    width: 80%;
+    margin-right: 20px;
+    position: absolute;
+    top: 0px;
+    left: 55px;
+    pointer-events: auto;
+    z-index: auto;
+}
+
+.list-comment-button{
+    right:100px;
+    border: 10px;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: cadetblue;
+}
+/**
+Twister container fin
+ */
+
+.grid {
+    z-index: 0;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    position: relative;
+}

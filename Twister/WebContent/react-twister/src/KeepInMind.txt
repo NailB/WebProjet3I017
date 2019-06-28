@@ -1,0 +1,16 @@
+
+Menu bouton :(à rajouter dans la page d'accueil seulement)
+<!-- <IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
+                        <MenuBar/>
+                    </IconButton>-->
+à choisir entre SideBar ou MenuBar
+
+iconbutton for menu:
+<IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
+                    </IconButton>
+
+onKeyPress={(e)=> e.key==='Enter'?this.handleSubmit():''}
+
+<ProfileTwists user={this.props.user} Refresh={this.state.refreshTwists}/>
+
+{this.state.isConnected ?<HomePage profile={this.setProfilePage} logout={this.setLogout} home={this.getConnected} user={this.state.user}/> : <LoginPage connecte={()=>this.getConnected()} setUser={this.setUser}/>}

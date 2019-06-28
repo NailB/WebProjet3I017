@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+ <!-- maxActive: nombre maximal de connexions -->
+ <!-- maxIdle: nombre minimal de connexions libres à retenir dans le pool -->
+ <!-- maxWait: temps d'attente maximal pour obtenir une connexion -->
+ <!-- username and password -->
+ <!-- driverClassName: nom du driver JDBC -->
+ <!-- url: url de connexion -->
+ <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
+ maxActive="100" maxIdle="30" maxWait="10000"
+ username="root" password=""
+ driverClassName="com.mysql.jdbc.Driver"
+ url="localhost:3306"/>
+</Context>
